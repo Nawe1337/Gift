@@ -1,10 +1,10 @@
-export const GiftItem = ({title, img,id}) => {
-  console.log(title,img,id);
+export const GiftItem = ({title, url,id}) => {
+
   return (
     <>
-    <div>
-    <li>{title}</li>
-    <img src={img} alt="" />
+    <div className="card">
+  <img src={url} alt="" />
+  <p>{title}</p>
     </div>
 
     </>
